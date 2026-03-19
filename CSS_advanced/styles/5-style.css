@@ -1,4 +1,4 @@
-/* 5. Variables for storing font size */
+/* 5. Variables for the font size */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -39,11 +39,24 @@ a {
 
 .section-tagline {
   color: var(--color-primary);
+  font-size: var(--font-size-small);
 }
 
-h1,
-h2,
-h3,
+h1 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+}
+
+h2 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-x-large);
+}
+
+h3 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-large);
+}
+
 h4,
 h5,
 h6 {
