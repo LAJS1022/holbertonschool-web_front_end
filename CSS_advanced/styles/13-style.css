@@ -1,4 +1,4 @@
-/* 12. Adding more styling to the section title */
+/* 13. Pseudo Classes */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -37,9 +37,21 @@ body {
   line-height: var(--line-height-base);
 }
 
-a {
+a[href] {
   color: var(--text-color);
   text-decoration: none;
+}
+
+a[href]:visited {
+  font-style: italic;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href]:active {
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
